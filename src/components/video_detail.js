@@ -21,8 +21,8 @@ class VideoDetail extends Component{
           <iframe className="embed-responsive-item" src={url}></iframe>
         </div>
         <div className="details">
-          <div>{ video.snippet.title}</div>
-          <div>{ video.snippet.description}</div>
+          <h3>{ video.snippet.title}</h3>
+          <p className="small">{ video.snippet.description}</p>
         </div>
       </div>
     )
