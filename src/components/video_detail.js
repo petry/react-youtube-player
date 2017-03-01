@@ -14,7 +14,6 @@ class VideoDetail extends Component{
     const video = this.props.video;
     const videoId = video.id.videoId;
     const url = `https://www.youtube.com/embed/${videoId}`;
-    console.log(url);
 
     return(
       <div className="video-detail col-md-8">
